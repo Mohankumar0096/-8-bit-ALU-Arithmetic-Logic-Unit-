@@ -1,0 +1,85 @@
+# ==========================================
+# 8-bit ALU - Verilog / ModelSim
+# Git Ignore File
+# ==========================================
+
+# ModelSim / QuestaSim working libraries
+work/
+transcript
+modelsim.ini
+vsim.wlf
+*.wlf
+
+# ModelSim compiled files
+*.dat
+*.log
+*.mpf
+*.mti
+*.qdb
+*.qtl
+*.vstf
+
+# Simulation output files
+*.vcd
+*.fst
+*.wlf
+
+# Temporary simulation files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Verilog compilation / simulator generated files
+*.vo
+*.vvp
+*.vcd
+
+# Intel Quartus generated files (if synthesis is added later)
+db/
+incremental_db/
+output_files/
+simulation/modelsim/
+*.qws
+*.qpf~
+*.qsf~
+*.sdc~
+
+# Quartus temporary / backup files
+*.rdb
+*.smsg
+*.summary
+*.jdi
+*.pin
+*.fit
+*.map
+*.sta
+*.sof
+
+# Waveform and simulator folders
+waveforms/
+simulation/results/
+simulation/logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# Windows temporary files
+*.lnk
+*.tmp
+
+# Python files (if scripts are added later)
+__pycache__/
+*.py[cod]
+
+# MATLAB temporary files (if used later)
+*.asv
+*.m~
